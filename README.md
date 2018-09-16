@@ -26,7 +26,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         </pre>
 </td>
 <td>
-  <img src = "#">
+  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/text1.png" width = 200>
 </td>
 </tr>
           
@@ -47,8 +47,8 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         decoration: FlutterLogoDecoration(),
       ),
                               </pre>
-                    </td>     
-                    <td>
+                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>    
+                    <tr><td>
                               <pre>
       Container(
         height: MediaQuery.of(context).size.height,
@@ -67,9 +67,11 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         child: Center(child: const Text('Hello Flutter', textAlign: TextAlign.center)),
       ),
                               </pre>
-                    </td>
-    <td>
-     <pre>
+                    </td><td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con2.png" width = 200></td>
+  </tr>
+    <tr>
+      <td>
+       <pre>
      Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
@@ -86,7 +88,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       ),
       </pre>
       </td>
-      <td></td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con3.png" width = 200></td>
 </tr></table>
           
 
