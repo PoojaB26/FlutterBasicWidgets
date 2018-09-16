@@ -29,7 +29,148 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
   <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/text1.png" width = 200>
 </td>
 </tr>
-          
+  </table>
+
+## AppBar
+<table>
+  <tr>
+    <td>
+      <pre>
+      AppBar(
+        backgroundColor: Colors.red,
+        title: new Text("Title",),
+        elevation: 4.0,
+        centerTitle: true,
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb1.png" width=200></tr>
+  <tr>
+    <td>
+      <pre>
+       AppBar(
+        title: new Text("Title"),
+        actions: <Widget>[
+          new IconButton(
+            icon: new Icon(Icons.search),
+            onPressed: () {},
+          ),
+          new IconButton(
+            icon: new Icon(Icons.add),
+            onPressed: () {},
+          ),
+        ],
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb2.png" width=200></tr>
+   <tr>
+    <td>
+      <pre>
+     AppBar(
+        backgroundColor: Colors.blueAccent,
+        title: new Text("Title"),
+        actions: <Widget>[
+          new IconButton(
+            icon: new Icon(Icons.search),
+            onPressed: () {},
+          ),
+        ],
+        iconTheme: IconThemeData(
+          color: Colors.white,
+        ),
+        textTheme: TextTheme(
+          title: TextStyle(
+            color: Colors.white,
+            fontSize: 20.0
+          ),
+        ),
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb3.png" width=200></tr>
+   <tr>
+    <td>
+      <pre>
+    AppBar(
+        automaticallyImplyLeading: false,
+        title: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              new Text(
+                "Title",
+                style: TextStyle(fontSize: 18.0),
+              ),
+              new Text(
+                "subtitle",
+                style: TextStyle(fontSize: 14.0),
+              ),
+            ],
+          ),
+        ),
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb4.png" width=200></tr>
+   <tr>
+    <td>
+      <pre>
+     AppBar(
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.yellow,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
+          children: <Widget>[
+            new FlutterLogo(),
+            Padding(
+              padding: const EdgeInsets.only(left: 16.0),
+              child: new Text(
+                "Title with image",
+              ),
+            ),
+          ],
+        ),
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb5.png" width=200></tr>
+   <tr>
+    <td>
+      <pre>
+     AppBar(
+        backgroundColor: Colors.blueAccent,
+        title: new Text("Title"),
+        actions: <Widget>[
+          new IconButton(
+            icon: new Icon(Icons.search),
+            onPressed: () {},
+          ),
+        ],
+        iconTheme: IconThemeData(
+          color: Colors.white,
+        ),
+        textTheme: TextTheme(
+          title: TextStyle(
+            color: Colors.white,
+            fontSize: 20.0
+          ),
+        ),
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb6.png" width=200></tr>
+   <tr>
+    <td>
+      <pre>
+     AppBar(
+        backgroundColor: Colors.transparent,
+        title: Text("Transparent AppBar"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.search,
+            ),
+            onPressed: () {},
+          )
+        ],
+      ),
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb7.png" width=200></tr>
+  
+  
+  </table>
+
 ## Container
 <table>
           <tr>
