@@ -5,7 +5,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 ## Text
 
 <table>
-<tr>
+  <tr>
 <td>
   <pre> 
   Text(
