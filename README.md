@@ -106,7 +106,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ),
         ),
       ),
-      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb4.png" width=200></tr>
+      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb5.png" width=200></tr>
    <tr>
     <td>
       <pre>
@@ -127,30 +127,8 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ],
         ),
       ),
-      </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb5.png" width=200></tr>
-   <tr>
-    <td>
-      <pre>
-     AppBar(
-        backgroundColor: Colors.blueAccent,
-        title: new Text("Title"),
-        actions: <Widget>[
-          new IconButton(
-            icon: new Icon(Icons.search),
-            onPressed: () {},
-          ),
-        ],
-        iconTheme: IconThemeData(
-          color: Colors.white,
-        ),
-        textTheme: TextTheme(
-          title: TextStyle(
-            color: Colors.white,
-            fontSize: 20.0
-          ),
-        ),
-      ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb6.png" width=200></tr>
+  
    <tr>
     <td>
       <pre>
