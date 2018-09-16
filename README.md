@@ -5,7 +5,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 ## Text
 | Code   |  Output  |
 |--------|--------|
-| <code>Text(
+| <pre>Text(
           "Hello Flutter It is Awesome WOW",
           textAlign: TextAlign.right,
           textDirection: TextDirection.ltr,
@@ -19,7 +19,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
               wordSpacing: 40.0,
               decoration: TextDecoration.overline,
               decorationStyle: TextDecorationStyle.wavy),
-        ), </code> | Testing | 
+        ), </pre>
 
 ## Getting Started
 
