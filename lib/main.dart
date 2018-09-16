@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'container_widget.dart';
 import 'text_widget.dart';
+import 'appar_widget.dart';
 
 
 void main() => runApp(new MyApp());
@@ -10,14 +11,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Widgets Demo',
+      debugShowCheckedModeBanner: false,
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.orange,
       ),
       home: new HomePage(),
       routes: <String, WidgetBuilder>{
         'Text': (BuildContext context) => TextWidget(),
+        'Appbar': (BuildContext context) => AppBarWidget(),
         'Container' : (BuildContext context) => ContainerWidget(),
+
       },
     );
   }
@@ -28,7 +32,7 @@ class HomePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    var widgetList = ["Text", "Container" ];
+    var widgetList = ["Text", "Appbar", "Container" ];
 
     return Scaffold(
       appBar: AppBar(
