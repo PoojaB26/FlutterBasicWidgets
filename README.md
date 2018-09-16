@@ -40,11 +40,6 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         width: MediaQuery.of(context).size.width,
         margin: EdgeInsets.all(25.0),
         decoration: FlutterLogoDecoration(),
-      ),Container(
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        margin: EdgeInsets.all(25.0),
-        decoration: FlutterLogoDecoration(),
       ),
                               </pre>
                     </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>    
