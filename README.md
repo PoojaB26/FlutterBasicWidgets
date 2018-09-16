@@ -3,9 +3,8 @@
 This is aimed for complete beginners in Flutter, to get them acquainted with the various basic widgets in Flutter. 
 
 ## Text
-| Code   |  Output  |
-|--------|--------|
-| <pre>Text(
+
+<pre> Text(
           "Hello Flutter It is Awesome WOW",
           textAlign: TextAlign.right,
           textDirection: TextDirection.ltr,
@@ -20,7 +19,6 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
               decoration: TextDecoration.overline,
               decorationStyle: TextDecorationStyle.wavy),
         ), </pre>
-
 ## Getting Started
 
 For help getting started with Flutter, view our online
