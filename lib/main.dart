@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'container_widget.dart';
-
+import 'text_widget.dart';
 
 
 void main() => runApp(new MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       ),
       home: new HomePage(),
       routes: <String, WidgetBuilder>{
-        //'text':
+        'Text': (BuildContext context) => TextWidget(),
         'Container' : (BuildContext context) => ContainerWidget(),
       },
     );
