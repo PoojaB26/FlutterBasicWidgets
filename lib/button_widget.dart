@@ -6,21 +6,12 @@ class ButtonWidget extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: OutlineButton(
-          onPressed: (){},
-          borderSide: BorderSide(
-              width: 5.0,
-              color: Colors.deepPurpleAccent
-          ),
-          color: Colors.deepPurpleAccent,
-          highlightedBorderColor: Colors.purple,
-          splashColor: Colors.green,
-          //highlightColor: Colors.red,
-          child: Text("Outline Button"),
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.vertical(top: Radius.circular(20.0), bottom: Radius.circular(1.0))
-          ),
-        ),
+        child: IconButton(
+            color: Colors.purple,
+            splashColor: Colors.yellow,
+           // highlightColor: Colors.red,
+            icon: Icon(Icons.build, size: 40.0,),
+            onPressed: (){})
       ),
     );
   }
@@ -101,4 +92,18 @@ class ButtonWidget extends StatelessWidget{
           ),
         ),
 *
+* */
+
+
+/*
+* TODO IconButton
+*
+* IconButton(
+            color: Colors.purple,
+            splashColor: Colors.yellow,
+           // highlightColor: Colors.red,
+            icon: Icon(Icons.build, size: 40.0,),
+            onPressed: (){})
+      ),
+
 * */
