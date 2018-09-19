@@ -378,6 +378,87 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 </table>
 
 
+## Buttons
+          
+<table>
+  <tr>
+    <td>
+      <pre>
+     RaisedButton(
+          onPressed: (){},
+          color: Colors.yellow,
+          disabledTextColor: Colors.grey,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20.0)
+          ),
+          elevation: 20.0,
+          splashColor: Colors.green,
+          highlightColor: Colors.red,
+          highlightElevation: 1.0,
+          child: Text("Raised Button"),
+        ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but1.gif" width=200></td>
+  </tr>
+      
+  <tr>
+    <td>
+      <pre>
+     MaterialButton(
+          minWidth: 250.0,
+          onPressed: (){},
+          colorBrightness: Brightness.dark,
+          color: Colors.deepPurpleAccent,
+          elevation: 20.0,
+          splashColor: Colors.green,
+          //highlightColor: Colors.red,
+          highlightElevation: 1.0,
+          child: Text("Material Button"),
+        ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but2.gif" width=200></td>
+  </tr>    
+  <tr>
+    <td>
+      <pre>
+      FlatButton(
+          onPressed: (){},
+          colorBrightness: Brightness.dark,
+          color: Colors.deepPurpleAccent,
+          splashColor: Colors.green,
+          highlightColor: Colors.red,
+          child: Text("Raised Button"),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.horizontal(left: Radius.circular(20.0), right: Radius.circular(1.0))
+          ),
+        ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but3.gif" width=200></td>
+  </tr>  
+    <tr>
+    <td>
+      <pre>
+     OutlineButton(
+          onPressed: (){},
+          borderSide: BorderSide(
+            width: 5.0,
+            color: Colors.deepPurpleAccent
+          ),
+          color: Colors.deepPurpleAccent,
+          highlightedBorderColor: Colors.purple,
+          splashColor: Colors.green,
+          //highlightColor: Colors.red,
+          child: Text("Raised Button"),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(20.0), bottom: Radius.circular(1.0))
+          ),
+        ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but4.gif" width=200></td>
+  </tr>    
+</table>
+
+
 
 ## Contributors
 Pooja Bhaumik <br>
