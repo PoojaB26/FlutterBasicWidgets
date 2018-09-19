@@ -9,16 +9,16 @@ class ButtonWidget extends StatelessWidget{
         child: OutlineButton(
           onPressed: (){},
           borderSide: BorderSide(
-            width: 5.0,
-            color: Colors.deepPurpleAccent
+              width: 5.0,
+              color: Colors.deepPurpleAccent
           ),
           color: Colors.deepPurpleAccent,
           highlightedBorderColor: Colors.purple,
           splashColor: Colors.green,
           //highlightColor: Colors.red,
-          child: Text("Raised Button"),
+          child: Text("Outline Button"),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.vertical(top: Radius.circular(20.0), bottom: Radius.circular(1.0))
+              borderRadius: BorderRadius.vertical(top: Radius.circular(20.0), bottom: Radius.circular(1.0))
           ),
         ),
       ),
