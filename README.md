@@ -205,6 +205,8 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con3.png" width = 200></td>
 </tr></table>
           
+## Column
+
 <table>
   <tr>
     <td>
@@ -286,6 +288,96 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col4.png" width=200></td>
   </tr>    
 </table>
+
+
+## Row
+          
+<table>
+  <tr>
+    <td>
+      <pre>
+      Row(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Text("Column 1", style: bigStyle,),
+              Text("Column 2", style: bigStyle,),
+              Text("Column 3", style: bigStyle,)
+            ],
+          )
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row1.png" width=200></td>
+  </tr>
+      
+  <tr>
+    <td>
+      <pre>
+      Row(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              FlutterLogo(
+                size: 100.0,
+                colors: Colors.red,
+              ),
+              Text("Column 2", style: bigStyle,),
+              Container(
+                color: Colors.green,
+                height: 100.0,
+                width: 100.0,
+              )
+            ],
+          )
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row2.png" width=200></td>
+  </tr>    
+  <tr>
+    <td>
+      <pre>
+      Row(
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              FlutterLogo(
+                size: 100.0,
+                colors: Colors.red,
+              ),
+              Text("Child Two", style: bigStyle,),
+              Container(
+                color: Colors.blue,
+                height: 100.0,
+                width: 100.0,
+              )
+            ],
+          ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row3.png" width=200></td>
+  </tr>  
+    <tr>
+    <td>
+      <pre>
+      Row(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[
+              Text("Parent Text 1"),
+              Text("Parent Text 2"),
+              Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: <Widget>[
+                  Text("Child Row Text 1"),
+                  Text("Child Row Text 2")
+                ],
+              ),
+            ],
+          ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row4.png" width=200></td>
+  </tr>    
+</table>
+
+
 
 ## Contributors
 Pooja Bhaumik <br>
