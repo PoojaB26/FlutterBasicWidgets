@@ -286,6 +286,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col4.png" width=200></td>
   </tr>    
 </table>
+
 ## Getting Started
 
 For help getting started with Flutter, view our online
