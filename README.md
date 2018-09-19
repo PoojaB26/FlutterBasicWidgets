@@ -217,7 +217,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ],
         )
       </pre>
-    </td><td><img src="img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col1.png" width=200></td>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col1.png" width=200></td>
   </tr>
       
   <tr>
@@ -238,7 +238,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ],
         )
       </pre>
-    </td><td><img src="img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col2.png" width=200></td>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col2.png" width=200></td>
   </tr>    
   <tr>
     <td>
@@ -261,7 +261,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
             ],
           ),
       </pre>
-    </td><td><img src="img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col3.png" width=200></td>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col3.png" width=200></td>
   </tr>  
     <tr>
     <td>
@@ -283,7 +283,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
             ],
           ),
       </pre>
-    </td><td><img src="img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col4.png" width=200></td>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col4.png" width=200></td>
   </tr>    
 </table>
 ## Getting Started
