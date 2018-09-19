@@ -4,6 +4,7 @@ import 'package:flutter_widgets/text_widget.dart';
 import 'package:flutter_widgets/appar_widget.dart';
 import 'package:flutter_widgets/column_widget.dart';
 import 'package:flutter_widgets/row_widget.dart';
+import 'package:flutter_widgets/button_widget.dart';
 
 
 void main() => runApp(new MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         'Container' : (BuildContext context) => ContainerWidget(),
         'Column' : (BuildContext context) => ColumnWidget(),
         'Row' : (BuildContext context) => RowWidget(),
+        'Button' : (BuildContext context) => ButtonWidget(),
 
       },
     );
@@ -36,7 +38,7 @@ class HomePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    var widgetList = ["Text", "Appbar", "Container", "Column", "Row"];
+    var widgetList = ["Text", "Appbar", "Container", "Column", "Row", "Button" ];
 
     return Scaffold(
       appBar: AppBar(
