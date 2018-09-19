@@ -429,7 +429,8 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           highlightColor: Colors.red,
           child: Text("Raised Button"),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.horizontal(left: Radius.circular(20.0), right: Radius.circular(1.0))
+            borderRadius: BorderRadius.horizontal(
+            left: Radius.circular(20.0), right: Radius.circular(1.0))
           ),
         ),
       </pre>
@@ -450,7 +451,8 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           //highlightColor: Colors.red,
           child: Text("Raised Button"),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.vertical(top: Radius.circular(20.0), bottom: Radius.circular(1.0))
+            borderRadius: BorderRadius.vertical(
+            top: Radius.circular(20.0), bottom: Radius.circular(1.0))
           ),
         ),
       </pre>
