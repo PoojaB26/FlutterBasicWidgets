@@ -289,7 +289,8 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## Contributors
 Pooja Bhaumik <br>
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://twitter.com/pblead26)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/pblead26.svg?style=social&label=Follow)](https://twitter.com/pblead26)
 
 
 ## Getting Started
