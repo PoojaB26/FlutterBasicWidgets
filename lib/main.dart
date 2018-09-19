@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'container_widget.dart';
 import 'text_widget.dart';
 import 'appar_widget.dart';
-
+import 'package:flutter_widgets/column_widget.dart';
 
 void main() => runApp(new MyApp());
 
@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
         'Text': (BuildContext context) => TextWidget(),
         'Appbar': (BuildContext context) => AppBarWidget(),
         'Container' : (BuildContext context) => ContainerWidget(),
+        'Column' : (BuildContext context) => ColumnWidget(),
 
       },
     );
@@ -32,7 +33,7 @@ class HomePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    var widgetList = ["Text", "Appbar", "Container" ];
+    var widgetList = ["Text", "Appbar", "Container", "Column" ];
 
     return Scaffold(
       appBar: AppBar(
