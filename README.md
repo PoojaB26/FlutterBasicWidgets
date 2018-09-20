@@ -458,6 +458,19 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but4.gif" width=200></td>
   </tr>    
+      <tr>
+    <td>
+      <pre>
+     IconButton(
+            color: Colors.purple,
+            splashColor: Colors.yellow,
+           // highlightColor: Colors.red,
+            icon: Icon(Icons.build, size: 40.0,),
+            onPressed: (){})
+      ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but5.gif" width=200></td>
+  </tr>    
 </table>
 
 
