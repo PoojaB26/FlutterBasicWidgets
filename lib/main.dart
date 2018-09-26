@@ -5,7 +5,7 @@ import 'package:flutter_widgets/appar_widget.dart';
 import 'package:flutter_widgets/column_widget.dart';
 import 'package:flutter_widgets/row_widget.dart';
 import 'package:flutter_widgets/button_widget.dart';
-
+import 'package:flutter_widgets/stack_widget.dart';
 
 void main() => runApp(new MyApp());
 
@@ -27,6 +27,8 @@ class MyApp extends StatelessWidget {
         'Column' : (BuildContext context) => ColumnWidget(),
         'Row' : (BuildContext context) => RowWidget(),
         'Button' : (BuildContext context) => ButtonWidget(),
+        'Stack' : (BuildContext context) => StackWidget(),
+
 
       },
     );
@@ -38,7 +40,8 @@ class HomePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    var widgetList = ["Text", "Appbar", "Container", "Column", "Row", "Button" ];
+    var widgetList = ["Text", "Appbar", "Container",
+    "Column", "Row", "Button", "Stack" ];
 
     return Scaffold(
       appBar: AppBar(
