@@ -15,6 +15,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 ## Text
 
 <table>
+  <tr><td> <b>Play with Text properties and styles</b> </td></tr>
   <tr>
 <td>
   <pre> 
@@ -43,6 +44,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## AppBar
 <table>
+  <tr><td> <b>AppBar with Title</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -50,9 +52,9 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         backgroundColor: Colors.red,
         title: new Text("Title",),
         elevation: 4.0,
-        centerTitle: true,
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb1.png" width=200></tr>
+    <tr><td> <b>AppBar with List of Actions</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -70,6 +72,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ],
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb2.png" width=200></tr>
+    <tr><td> <b>AppBar with Text and Icon Themes</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -93,6 +96,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb3.png" width=200></tr>
+    <tr><td> <b>AppBar with centered Title and Subtitle</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -117,6 +121,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb5.png" width=200></tr>
+    <tr><td> <b>AppBar with Logo</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -138,7 +143,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb6.png" width=200></tr>
-  
+    <tr><td> <b>Transparent AppBar</b> </td></tr>
    <tr>
     <td>
       <pre>
