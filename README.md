@@ -494,6 +494,186 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 </table>
 
 
+## Stack
+<table>
+  <tr><td> <b>Stack of overlapping containers of reducing size</b> </td></tr>
+  <tr>
+<td>
+  <pre> 
+  Stack(
+        children: <Widget>[
+          Container(
+            height: 300.0,
+            width: 300.0,
+            color: Colors.red,
+          ),
+          Container(
+            height: 250.0,
+            width: 250.0,
+            color: Colors.green,
+          ),
+          Container(
+            height: 200.0,
+            width: 200.0,
+            color: Colors.yellow,
+          )
+        ],
+      ),
+        </pre>
+</td>
+<td>
+  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/stk1.png" width = 200>
+</td>
+</tr>
+  
+  
+  <tr><td> <b>Playing with Alignment property</b> </td></tr>
+  <tr>
+<td>
+  <pre> 
+  Stack(
+        alignment: Alignment.center,
+        children: <Widget>[
+          Container(
+            height: 300.0,
+            width: 300.0,
+            color: Colors.red,
+          ),
+          Container(
+            height: 250.0,
+            width: 250.0,
+            color: Colors.green,
+          ),
+          Container(
+            height: 200.0,
+            width: 200.0,
+            color: Colors.yellow,
+          )
+        ],
+      ),
+        </pre>
+</td>
+<td>
+  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/stk2.png" width = 200>
+</td>
+</tr>
+
+
+ <tr><td> <b>One child on top of another using Positioned</b> </td></tr>
+  <tr>
+<td>
+  <pre> 
+  Container(
+        height: 400.0,
+        //color: Colors.yellow,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Stack(
+            alignment: Alignment.center,
+            children: <Widget>[
+              Container(
+                height: 300.0,
+                width: 300.0,
+                color: Colors.red,
+              ),
+              Positioned(
+                top: 0.0,
+                child: Container(
+                  height: 250.0,
+                  width: 250.0,
+                  color: Colors.green,
+                ),
+              ),
+
+            ],
+          ),
+        ),
+      ),
+        </pre>
+</td>
+<td>
+  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/stk3.png" width = 200>
+</td>
+</tr>
+
+
+ <tr><td> <b>Playing with Positioned properties</b> </td></tr>
+  <tr>
+<td>
+  <pre> 
+  Container(
+        height: 400.0,
+        //color: Colors.yellow,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Stack(
+            alignment: Alignment.center,
+            children: <Widget>[
+              Container(
+                height: 300.0,
+                width: 300.0,
+                color: Colors.red,
+              ),
+              Positioned(
+                top: 0.0,
+                bottom: 0.0,
+                child: Container(
+                  height: 250.0,
+                  width: 250.0,
+                  color: Colors.green,
+                ),
+              ),
+
+            ],
+          ),
+        ),
+      ),
+        </pre>
+</td>
+<td>
+  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/stk4.png" width = 200>
+</td>
+</tr>
+
+
+ <tr><td> <b>Playing with Positioned</b> </td></tr>
+  <tr>
+<td>
+  <pre> 
+  Container(
+        height: 400.0,
+        width: 350.0,
+        //color: Colors.yellow,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Stack(
+            alignment: Alignment.center,
+            children: <Widget>[
+              Container(
+                height: 300.0,
+                width: 200.0,
+                color: Colors.red,
+              ),
+              Positioned(
+                right: 0.0,
+                child: Container(
+                  height: 250.0,
+                  width: 150.0,
+                  color: Colors.green,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+        </pre>
+</td>
+<td>
+  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/stk5.png" width = 200>
+</td>
+</tr>
+  </table>
+
 
 ## Contributors
 Pooja Bhaumik <br>
