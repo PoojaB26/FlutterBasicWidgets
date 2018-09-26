@@ -166,6 +166,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## Container
 <table>
+    <tr><td> <b>Container with full-device sized Flutter Logo</b> </td></tr>
           <tr>
                     <td>
                               <pre>
@@ -176,7 +177,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         decoration: FlutterLogoDecoration(),
       ),
                               </pre>
-                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>    
+                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>      <tr><td> <b>Container with shadow, border, and child</b> </td></tr>
                     <tr><td>
                               <pre>
       Container(
@@ -198,6 +199,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
                               </pre>
                     </td><td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con2.png" width = 200></td>
   </tr>
+      <tr><td> <b>Rounded rectangle containers with border</b> </td></tr>
     <tr>
       <td>
        <pre>
@@ -222,7 +224,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           
 ## Column
 
-<table>
+<table>    <tr><td> <b>Simple Column of similar Text children</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -236,7 +238,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col1.png" width=200></td>
   </tr>
-      
+          <tr><td> <b>Column of different Widget children</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -256,6 +258,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         )
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col2.png" width=200></td>
+    <tr><td> <b>Playing with MainAxisAlignment</b> </td></tr>
   </tr>    
   <tr>
     <td>
@@ -279,6 +282,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col3.png" width=200></td>
+  <tr><td> <b>Column having Row as child</b> </td></tr>
   </tr>  
     <tr>
     <td>
@@ -307,7 +311,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## Row
           
-<table>
+<table><tr><td> <b>Simple Row of similar Text children</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -322,7 +326,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row1.png" width=200></td>
   </tr>
-      
+  <tr><td> <b>Row with children of different Widgets</b></td></tr>    
   <tr>
     <td>
       <pre>
@@ -343,6 +347,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           )
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row2.png" width=200></td>
+    <tr><td> <b>Playing with MainAxisAlignment</b> </td></tr>
   </tr>    
   <tr>
     <td>
@@ -366,7 +371,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row3.png" width=200></td>
-  </tr>  
+  </tr>  <tr><td> <b>Row having Column as child</b> </td></tr>
     <tr>
     <td>
       <pre>
