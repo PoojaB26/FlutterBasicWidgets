@@ -2,9 +2,20 @@
 
 This is aimed for complete beginners in Flutter, to get them acquainted with the various basic widgets in Flutter. 
 
+## Run this project
+* Fork this project.
+* Rename the directory to "flutter_widgets" or something with all_lowercase_and_underscore. (Unfortunately Flutter doesnt like CamelCases)
+* In your terminal, run <code>flutter create . </code> This will create the android and iOS projects for you. 
+* Run in your emulator or simulator. 
+
+**OR** you can always copy the examples from here and try it out in your apps. 
+
+# Examples
+
 ## Text
 
 <table>
+  <tr><td> <b>Play with Text properties and styles</b> </td></tr>
   <tr>
 <td>
   <pre> 
@@ -33,6 +44,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## AppBar
 <table>
+  <tr><td> <b>AppBar with Title</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -40,9 +52,9 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         backgroundColor: Colors.red,
         title: new Text("Title",),
         elevation: 4.0,
-        centerTitle: true,
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb1.png" width=200></tr>
+    <tr><td> <b>AppBar with List of Actions</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -60,6 +72,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ],
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb2.png" width=200></tr>
+    <tr><td> <b>AppBar with Text and Icon Themes</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -83,6 +96,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb3.png" width=200></tr>
+    <tr><td> <b>AppBar with centered Title and Subtitle</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -107,6 +121,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb5.png" width=200></tr>
+    <tr><td> <b>AppBar with Logo</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -128,7 +143,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb6.png" width=200></tr>
-  
+    <tr><td> <b>Transparent AppBar</b> </td></tr>
    <tr>
     <td>
       <pre>
@@ -151,6 +166,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## Container
 <table>
+    <tr><td> <b>Container with full-device sized Flutter Logo</b> </td></tr>
           <tr>
                     <td>
                               <pre>
@@ -161,7 +177,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         decoration: FlutterLogoDecoration(),
       ),
                               </pre>
-                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>    
+                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>      <tr><td> <b>Container with shadow, border, and child</b> </td></tr>
                     <tr><td>
                               <pre>
       Container(
@@ -183,6 +199,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
                               </pre>
                     </td><td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con2.png" width = 200></td>
   </tr>
+      <tr><td> <b>Rounded rectangle containers with border</b> </td></tr>
     <tr>
       <td>
        <pre>
@@ -207,7 +224,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           
 ## Column
 
-<table>
+<table>    <tr><td> <b>Simple Column of similar Text children</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -221,7 +238,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col1.png" width=200></td>
   </tr>
-      
+          <tr><td> <b>Column of different Widget children</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -241,6 +258,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         )
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col2.png" width=200></td>
+    <tr><td> <b>Playing with MainAxisAlignment</b> </td></tr>
   </tr>    
   <tr>
     <td>
@@ -264,6 +282,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/col3.png" width=200></td>
+  <tr><td> <b>Column having Row as child</b> </td></tr>
   </tr>  
     <tr>
     <td>
@@ -292,7 +311,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 ## Row
           
-<table>
+<table><tr><td> <b>Simple Row of similar Text children</b> </td></tr>
   <tr>
     <td>
       <pre>
@@ -307,7 +326,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row1.png" width=200></td>
   </tr>
-      
+  <tr><td> <b>Row with children of different Widgets</b></td></tr>    
   <tr>
     <td>
       <pre>
@@ -328,6 +347,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           )
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row2.png" width=200></td>
+    <tr><td> <b>Playing with MainAxisAlignment</b> </td></tr>
   </tr>    
   <tr>
     <td>
@@ -351,7 +371,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
           ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/row3.png" width=200></td>
-  </tr>  
+  </tr>  <tr><td> <b>Row having Column as child</b> </td></tr>
     <tr>
     <td>
       <pre>
@@ -457,6 +477,19 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but4.gif" width=200></td>
+  </tr>    
+      <tr>
+    <td>
+      <pre>
+     IconButton(
+            color: Colors.purple,
+            splashColor: Colors.yellow,
+           // highlightColor: Colors.red,
+            icon: Icon(Icons.build, size: 40.0,),
+            onPressed: (){})
+      ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but5.gif" width=200></td>
   </tr>    
 </table>
 
