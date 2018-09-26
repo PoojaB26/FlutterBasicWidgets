@@ -501,7 +501,7 @@ Pooja Bhaumik <br>
 [![Twitter Follow](https://img.shields.io/twitter/follow/pblead26.svg?style=social&label=Follow)](https://twitter.com/pblead26)
 
 > You think I made your life easier? Make my life easier too if you really like my work. <br>
-> Donate via Google Pay (Tez) pooja.reloading@okicici
+> Donate via Google Pay (Tez) **pooja.reloading@okicici**
  
 
 
