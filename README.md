@@ -550,8 +550,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
             color: Colors.yellow,
           )
         ],
-      ),
-        </pre>
+      ),</pre>
 </td>
 <td>
   <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/stk2.png" width = 200>
@@ -584,7 +583,6 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
                   color: Colors.green,
                 ),
               ),
-
             ],
           ),
         ),
@@ -623,7 +621,6 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
                   color: Colors.green,
                 ),
               ),
-
             ],
           ),
         ),
