@@ -6,12 +6,20 @@ class ButtonWidget extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: IconButton(
-            color: Colors.purple,
-            splashColor: Colors.yellow,
-           // highlightColor: Colors.red,
-            icon: Icon(Icons.build, size: 40.0,),
-            onPressed: (){})
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FloatingActionButton(
+                backgroundColor: Colors.orange,
+                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
+                onPressed: (){}),
+            FloatingActionButton(
+                mini: true,
+                backgroundColor: Colors.green,
+                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
+                onPressed: (){}),
+          ],
+        )
       ),
     );
   }
@@ -106,4 +114,20 @@ class ButtonWidget extends StatelessWidget{
             onPressed: (){})
       ),
 
+* */
+
+/*
+* TODO Simple Circular Button using FloatingActionButton (Mini and Normal Size)
+*
+* FloatingActionButton(
+                backgroundColor: Colors.orange,
+                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
+                onPressed: (){}),
+
+
+* FloatingActionButton(
+                mini: true,
+                backgroundColor: Colors.green,
+                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
+                onPressed: (){}),
 * */
