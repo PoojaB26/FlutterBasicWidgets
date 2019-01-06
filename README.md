@@ -490,7 +490,28 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but5.gif" width=200></td>
-  </tr>    
+  </tr> 
+  <tr>
+    <td>
+      <pre>
+    Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            FloatingActionButton(
+                backgroundColor: Colors.orange,
+                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
+                onPressed: (){}),
+            FloatingActionButton(
+                mini: true,
+                backgroundColor: Colors.green,
+                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
+                onPressed: (){}),
+          ],
+        )
+      ),
+      </pre>
+    </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but6.png" width=200></td>
+  </tr>
 </table>
 
 
