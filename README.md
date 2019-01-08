@@ -10,6 +10,11 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 **OR** you can always copy the examples from here and try it out in your apps. 
 
+## Support my work
+
+> You think I made your life easier? Make my life easier too if you really like my work. <br>
+> PayPal at paypal.me/PoojaBhaumik
+ 
 # Examples
 
 ## Text
@@ -698,9 +703,6 @@ Pooja Bhaumik <br>
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/pblead26.svg?style=social&label=Follow)](https://twitter.com/pblead26)
 
-> You think I made your life easier? Make my life easier too if you really like my work. <br>
-> Donate via Google Pay (Tez) **pooja.reloading@okicici**
- 
 
 
 ## Getting Started
