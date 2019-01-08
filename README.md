@@ -180,7 +180,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         decoration: FlutterLogoDecoration(),
       ),
                               </pre>
-                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con1.png" width = 200> </td></tr>      <tr><td> <b>Container with shadow, border, and child</b> </td></tr>
+                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con1.png" width = 200> </td></tr>      <tr><td> <b>Container with shadow, border, and child</b> </td></tr>
                     <tr><td>
                               <pre>
       Container(
@@ -200,7 +200,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
         child: Center(child: const Text('Hello Flutter', textAlign: TextAlign.center)),
       ),
                               </pre>
-                    </td><td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con2.png" width = 200></td>
+                    </td><td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con2.png" width = 200></td>
   </tr>
       <tr><td> <b>Rounded rectangle containers with border</b> </td></tr>
     <tr>
@@ -222,8 +222,45 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       ),
       </pre>
       </td>
-      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/con3.png" width = 200></td>
-</tr></table>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con3.png" width = 200></td>
+</tr>
+<tr><td> <b>Container with alignment property</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+    Container(
+        margin: EdgeInsets.all(20.0),
+        width: double.infinity,
+        height: 300.0,
+        color: Colors.red,
+        alignment: Alignment.topRight,
+        padding: EdgeInsets.all(20.0),
+        child: FlutterLogo(size: 100.0,),
+      ),
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con4.png" width = 200></td>
+</tr>
+ <tr><td> <b>Container with minWidth and maxWidth Box Constraints</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+   Container(
+          margin: EdgeInsets.all(20.0),
+          constraints: BoxConstraints(
+            maxWidth: 400.0,
+            minWidth: 200.0
+          ),
+          width: 50.0,
+          alignment: Alignment.topCenter,
+          child: Image.network('https://picsum.photos/500/400'),
+        ),
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con5.png" width = 200></td>
+</tr>
+
+</table>
           
 ## Column
 
