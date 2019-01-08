@@ -6,20 +6,19 @@ class ButtonWidget extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            FloatingActionButton(
-                backgroundColor: Colors.orange,
-                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
-                onPressed: (){}),
-            FloatingActionButton(
-                mini: true,
-                backgroundColor: Colors.green,
-                child: Icon(Icons.mic, size: 30.0, color: Colors.white,),
-                onPressed: (){}),
-          ],
-        )
+        child: RaisedButton(
+          onPressed: (){},
+          color: Colors.yellow,
+          disabledTextColor: Colors.grey,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20.0)
+          ),
+          elevation: 20.0,
+          splashColor: Colors.green,
+          highlightColor: Colors.red,
+          highlightElevation: 1.0,
+          child: Text("Raised Button"),
+        ),
       ),
     );
   }

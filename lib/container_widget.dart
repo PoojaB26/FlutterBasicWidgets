@@ -5,17 +5,10 @@ class ContainerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Container(
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        margin: EdgeInsets.all(25.0),
-        decoration: FlutterLogoDecoration(),
-      ),
+      body: Container(),
     );
   }
 }
-
-
 
 /*
 * TODO Container containing Flutter Flutter
@@ -71,3 +64,34 @@ class ContainerWidget extends StatelessWidget {
 * */
 
 
+/*
+* TODO Container with Alignment property
+*
+* Container(
+        margin: EdgeInsets.all(20.0),
+        width: double.infinity,
+        height: 300.0,
+        color: Colors.red,
+        alignment: Alignment.topRight,
+        padding: EdgeInsets.all(20.0),
+        child: FlutterLogo(size: 100.0,),
+      ),
+*
+* */
+
+
+/*
+* TODO Container with Box Constraints
+*
+* Container(
+          margin: EdgeInsets.all(20.0),
+          constraints: BoxConstraints(
+            maxWidth: 400.0,
+            minWidth: 200.0
+          ),
+          width: 50.0,
+          alignment: Alignment.topCenter,
+          child: Image.network('https://picsum.photos/500/400'),
+        ),
+*
+* */

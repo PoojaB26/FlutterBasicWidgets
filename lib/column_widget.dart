@@ -11,26 +11,7 @@ class ColumnWidget extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
-        body: Container(
-          color: Colors.yellow,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            crossAxisAlignment: CrossAxisAlignment.end,
-
-            children: <Widget>[
-              FlutterLogo(
-                size: 100.0,
-                colors: Colors.red,
-              ),
-              Text("Child Two", style: bigStyle,),
-              Container(
-                color: Colors.blue,
-                height: 100.0,
-                width: 100.0,
-              )
-            ],
-          ),
+        body: Column(
         )
     );
   }
