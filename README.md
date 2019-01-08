@@ -10,10 +10,10 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 **OR** you can always copy the examples from here and try it out in your apps. 
 
-## Support my work
+## Support my work [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59LH5AHNQ8XZW)
 
 > You think I made your life easier? Make my life easier too if you really like my work. <br>
-> PayPal at paypal.me/PoojaBhaumik
+> [Buy me a cupcake!](paypal.me/PoojaBhaumik) 
  
 # Examples
 
