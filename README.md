@@ -10,7 +10,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 
 **OR** you can always copy the examples from here and try it out in your apps. 
 
-### Liked my work? Buy me a cupcake! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](paypal.me/PoojaBhaumik)
+### Liked my work? Buy me a cupcake! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/PoojaBhaumik)
 
  
 # Examples
