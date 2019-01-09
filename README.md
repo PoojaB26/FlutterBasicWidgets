@@ -259,6 +259,104 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
       </td>
       <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con5.png" width = 200></td>
 </tr>
+  <tr><td> <b>Container with List of Box Shadow</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+  Container(
+          height: 100.0,
+          width: 200.0,
+          decoration: BoxDecoration(
+              color: Colors.white,
+              boxShadow: [
+              BoxShadow(color: Colors.red, blurRadius: 12.0 ),
+              BoxShadow(color: Colors.green, blurRadius: 40.0)
+              ]
+          ),
+        )
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con6.png" width = 200></td>
+</tr>
+ <tr><td> <b>Container with Image and Rounded Border</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+  Container(
+          height: 200.0,
+          width: 200.0,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20.0),
+              color: Colors.white,
+              image: DecorationImage(fit: BoxFit.cover,
+                  image: NetworkImage('https://picsum.photos/200/300'))
+          ),
+        )
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con7.png" width = 200></td>
+</tr>
+ <tr><td> <b>Circular Container</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+   Container(
+          height: 200.0,
+          width: 200.0,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(200.0),
+              color: Colors.green,
+          ),
+          child: Text('Hello'),
+        )
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con8.png" width = 200></td>
+</tr>
+ <tr><td> <b>Container with Horizontal Radius of left and right Radius</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+  Container(
+          height: 200.0,
+          width: 200.0,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.horizontal(
+              left: Radius.circular(20.0),
+              right: Radius.circular(80.0)
+            ),
+              color: Colors.green,
+          ),
+          child: Text('Hello'),
+        )
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con9.png" width = 200></td>
+</tr>
+  <tr><td> <b>Container with Vertical Radius of top and bottom Radius</b> </td></tr>
+    <tr>
+      <td>
+       <pre>
+ Container(
+          height: 200.0,
+          width: 200.0,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.vertical(
+              top: Radius.circular(20.0),
+              bottom: Radius.circular(80.0)
+            ),
+              color: Colors.green,
+          ),
+          child: Text('Hello'),
+        )
+      </pre>
+      </td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con10.png" width = 200></td>
+</tr>
+
 
 </table>
           
