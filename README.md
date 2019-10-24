@@ -5,7 +5,7 @@ This is aimed for complete beginners in Flutter, to get them acquainted with the
 ## Run this project
 * Fork this project.
 * Rename the directory to "flutter_widgets" or something with all_lowercase_and_underscore. (Unfortunately Flutter doesnt like CamelCases)
-* In your terminal, run <code>flutter create . </code> This will create the android and iOS projects for you. 
+* In your terminal, run <code>flutter create flutter_widgets</code> (Add directory name after <code>flutter create </code>) This will create the android and iOS projects for you. 
 * Run in your emulator or simulator. 
 
 **OR** you can always copy the examples from here and try it out in your apps. 
