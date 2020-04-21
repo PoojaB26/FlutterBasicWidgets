@@ -43,10 +43,12 @@ No need of running the project, simply run the code in the new official Flutter 
         </pre>
 </td>
 <td>
-  <img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/text1.png" width = 200>
+  <img src = "https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-21+at+05.53.51.png" width = 200>
 </td>
 </tr>
   </table>
+  
+### Try this and more directly from [DartPad](https://dartpad.dev/d548285fd710d4c94cb1ff59835b85bd)
 
 ## AppBar
 <table>
