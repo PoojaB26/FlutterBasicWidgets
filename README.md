@@ -20,6 +20,9 @@ No need of running the project, simply run the code in the new official Flutter 
 
 ## Text
 
+### Try out Text widget and it's properties directly from [DartPad](https://dartpad.dev/d548285fd710d4c94cb1ff59835b85bd)
+
+
 <table>
   <tr><td> <b>Play with Text properties and styles</b> </td></tr>
   <tr>
@@ -48,9 +51,10 @@ No need of running the project, simply run the code in the new official Flutter 
 </tr>
   </table>
   
-### Try this and more directly from [DartPad](https://dartpad.dev/d548285fd710d4c94cb1ff59835b85bd)
-
 ## AppBar
+
+### Try AppBar examples directly from [DartPad](https://dartpad.dev/bd6bb228f0be205648a74490f35f776f)
+
 <table>
   <tr><td> <b>AppBar with Title</b> </td></tr>
   <tr>
