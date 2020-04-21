@@ -58,7 +58,7 @@ No need of running the project, simply run the code in the new official Flutter 
       <pre>
       AppBar(
         backgroundColor: Colors.red,
-        title: new Text("Title",),
+        title: Text("Title",),
         elevation: 4.0,
       ),
       </pre></td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/appb1.png" width=200></tr>
@@ -67,14 +67,14 @@ No need of running the project, simply run the code in the new official Flutter 
     <td>
       <pre>
        AppBar(
-        title: new Text("Title"),
+        title: Text("Title"),
         actions: <Widget>[
-          new IconButton(
-            icon: new Icon(Icons.search),
+          IconButton(
+            icon: Icon(Icons.search),
             onPressed: () {},
           ),
-          new IconButton(
-            icon: new Icon(Icons.add),
+          IconButton(
+            icon: Icon(Icons.add),
             onPressed: () {},
           ),
         ],
@@ -86,10 +86,10 @@ No need of running the project, simply run the code in the new official Flutter 
       <pre>
      AppBar(
         backgroundColor: Colors.blueAccent,
-        title: new Text("Title"),
+        title: Text("Title"),
         actions: <Widget>[
-          new IconButton(
-            icon: new Icon(Icons.search),
+          IconButton(
+            icon: Icon(Icons.search),
             onPressed: () {},
           ),
         ],
@@ -116,11 +116,11 @@ No need of running the project, simply run the code in the new official Flutter 
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              new Text(
+              Text(
                 "Title",
                 style: TextStyle(fontSize: 18.0),
               ),
-              new Text(
+              Text(
                 "subtitle",
                 style: TextStyle(fontSize: 14.0),
               ),
@@ -140,10 +140,10 @@ No need of running the project, simply run the code in the new official Flutter 
           mainAxisAlignment: MainAxisAlignment.start,
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
-            new FlutterLogo(),
+            FlutterLogo(),
             Padding(
               padding: const EdgeInsets.only(left: 16.0),
-              child: new Text(
+              child: Text(
                 "Title with image",
               ),
             ),
@@ -192,12 +192,12 @@ No need of running the project, simply run the code in the new official Flutter 
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         margin: EdgeInsets.all(25.0),
-        decoration: new ShapeDecoration(
+        decoration: ShapeDecoration(
           color: Colors.white,
           shadows: <BoxShadow>[
             BoxShadow(color: Colors.black, blurRadius: 15.0)
           ],
-          shape: new Border.all(
+          shape: Border.all(
             color: Colors.red,
             width: 8.0,
           ),
@@ -215,10 +215,10 @@ No need of running the project, simply run the code in the new official Flutter 
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         margin: EdgeInsets.all(25.0),
-        decoration: new BoxDecoration(
+        decoration: BoxDecoration(
           color: Colors.yellow,
-          borderRadius: new BorderRadius.circular(55.0),
-          border: new Border.all(
+          borderRadius: BorderRadius.circular(55.0),
+          border: Border.all(
             width: 5.0,
             color: Colors.red,
           ),
