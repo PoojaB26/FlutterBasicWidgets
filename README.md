@@ -3,15 +3,18 @@
 This is aimed for complete beginners in Flutter, to get them acquainted with the various basic widgets in Flutter. 
 
 ## Run this project
+
+**EDIT** : 
+No need of running the project, simply run the code in the new official Flutter online compiler [DartPad](https://dartpad.dartlang.org/flutter). All the DartPad links are given along with the example.
+
+#### Still want to run the project?
+
 * Fork this project.
 * Rename the directory to "flutter_widgets" or something with all_lowercase_and_underscore. (Unfortunately Flutter doesnt like CamelCases)
 * In your terminal, run <code>flutter create . </code> This will create the android and iOS projects for you. 
 * Run in your emulator or simulator. 
 
-**OR** you can always copy the examples from here and try it out in your apps. 
-
-### Liked my work? Buy me a cupcake! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/PoojaBhaumik)
-
+### This project helped you? Buy me a cupcake to support me! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/PoojaBhaumik)
  
 # Examples
 
