@@ -177,6 +177,9 @@ No need of running the project, simply run the code in the new official Flutter 
   </table>
 
 ## Container
+
+### Try Container examples directly from [DartPad](https://dartpad.dev/d548285fd710d4c94cb1ff59835b85bd)
+
 <table>
     <tr><td> <b>Container with full-device sized Flutter Logo</b> </td></tr>
           <tr>
@@ -371,6 +374,8 @@ No need of running the project, simply run the code in the new official Flutter 
           
 ## Column
 
+### Try Column examples directly from [DartPad](https://dartpad.dev/d548285fd710d4c94cb1ff59835b85bd)
+
 <table>    <tr><td> <b>Simple Column of similar Text children</b> </td></tr>
   <tr>
     <td>
@@ -457,7 +462,9 @@ No need of running the project, simply run the code in the new official Flutter 
 
 
 ## Row
-          
+  
+### Try Row examples directly from [DartPad](https://dartpad.dev/564ca3391b28bc035e675ea86c4355ef)
+
 <table><tr><td> <b>Simple Row of similar Text children</b> </td></tr>
   <tr>
     <td>
@@ -546,6 +553,8 @@ No need of running the project, simply run the code in the new official Flutter 
 
 
 ## Buttons
+          
+### Try Buttons examples directly from [DartPad](https://dartpad.dev/b4fb1e9bd187d4a808f85d962f63e9d1)
           
 <table>
   <tr>
@@ -663,6 +672,9 @@ No need of running the project, simply run the code in the new official Flutter 
 
 
 ## Stack
+
+### Try Stack examples directly from [DartPad](https://dartpad.dev/8452d46bb69207184364d90102855257)
+
 <table>
   <tr><td> <b>Stack of overlapping containers of reducing size</b> </td></tr>
   <tr>
