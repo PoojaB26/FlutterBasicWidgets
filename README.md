@@ -851,6 +851,54 @@ No need of running the project, simply run the code in the new official Flutter 
 </tr>
   </table>
 
+## TextFields
+  
+### Try TextFields examples directly from [DartPad]()
+
+<table><tr><td> <b>Rounded TextField without Outline</b> </td></tr>
+  <tr>
+    <td>
+      <pre>
+     TextField(
+    decoration: new InputDecoration(
+        border: new OutlineInputBorder(
+          borderSide: BorderSide(
+            width: 0,
+            style: BorderStyle.none,
+          ),
+          borderRadius: const BorderRadius.all(
+            const Radius.circular(10.0),
+          ),
+        ),
+        filled: true,
+        hintStyle: new TextStyle(color: Colors.grey[800]),
+        hintText: "Type in your text",
+        fillColor: Colors.white),
+  );
+      </pre>
+    </td><td><img src="https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-25+at+03.13.09.png" width=200></td>
+  </tr>  
+ 
+ <tr><td> <b>Rounded TextField With Outline</b> </td></tr>
+ <tr>
+    <td>
+      <pre>
+     TextField(
+    decoration: new InputDecoration(
+        border: new OutlineInputBorder(
+          borderRadius: const BorderRadius.all(
+            const Radius.circular(10.0),
+          ),
+        ),
+        filled: true,
+        hintStyle: new TextStyle(color: Colors.grey[800]),
+        hintText: "Type in your text",
+        fillColor: Colors.white),
+  );
+      </pre>
+    </td><td><img src="https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-25+at+03.12.51.png" width=200></td>
+  </tr> 
+</table>
 
 ## Contributors
 Pooja Bhaumik <br>
