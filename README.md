@@ -489,7 +489,6 @@ No need of running the project, simply run the code in the new official Flutter 
             children: <Widget>[
               FlutterLogo(
                 size: 100.0,
-                colors: Colors.red,
               ),
               Text("Column 2", style: bigStyle,),
               Container(
@@ -513,7 +512,6 @@ No need of running the project, simply run the code in the new official Flutter 
             children: <Widget>[
               FlutterLogo(
                 size: 100.0,
-                colors: Colors.red,
               ),
               Text("Child Two", style: bigStyle,),
               Container(
