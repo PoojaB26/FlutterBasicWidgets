@@ -851,50 +851,55 @@ No need of running the project, simply run the code in the new official Flutter 
 
 ## TextFields
   
-### Try TextFields examples directly from [DartPad]()
+### Try TextFields Examples:
 
 <table><tr><td> <b>Rounded TextField without Outline</b> </td></tr>
   <tr>
     <td>
       <pre>
      TextField(
-    decoration: new InputDecoration(
-        border: new OutlineInputBorder(
-          borderSide: BorderSide(
-            width: 0,
-            style: BorderStyle.none,
-          ),
-          borderRadius: const BorderRadius.all(
-            const Radius.circular(10.0),
-          ),
-        ),
-        filled: true,
-        hintStyle: new TextStyle(color: Colors.grey[800]),
-        hintText: "Type in your text",
-        fillColor: Colors.white),
-  );
+          decoration: new InputDecoration(
+              border: new OutlineInputBorder(
+                borderSide: BorderSide(
+                  width: 0,
+                  style: BorderStyle.none,
+                ),
+                borderRadius: const BorderRadius.all(
+                  const Radius.circular(10.0),
+                ),
+              ),
+              filled: true,
+              hintStyle: new TextStyle(color: Colors.white30),
+              hintText: "Type in your text"
+          );
       </pre>
-    </td><td><img src="https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-25+at+03.13.09.png" width=200></td>
-  </tr>  
+    </td><td><img src="https://user-images.githubusercontent.com/3306366/113850345-faf37280-97b7-11eb-8a2d-f248bc7919d1.png" width=200></td>
+ </tr>  
  
  <tr><td> <b>Rounded TextField With Outline</b> </td></tr>
  <tr>
     <td>
       <pre>
-     TextField(
-    decoration: new InputDecoration(
-        border: new OutlineInputBorder(
-          borderRadius: const BorderRadius.all(
-            const Radius.circular(10.0),
-          ),
-        ),
-        filled: true,
-        hintStyle: new TextStyle(color: Colors.grey[800]),
-        hintText: "Type in your text",
-        fillColor: Colors.white),
-  );
+     Padding(
+      padding: const EdgeInsets.all(30.0),
+      child: TextField(
+        decoration: new InputDecoration(
+            border: new OutlineInputBorder(
+              borderSide: BorderSide(
+                width: 2,
+                style: BorderStyle.none,
+              ),
+              borderRadius: const BorderRadius.all(
+                const Radius.circular(10.0),
+              ),
+            ),
+            filled: true,
+            hintStyle: new TextStyle(color: Colors.white30),
+            hintText: "Type in your text"),
+      ),
+    );
       </pre>
-    </td><td><img src="https://github-bucket-2604.s3.us-east-2.amazonaws.com/Screenshot+2020-04-25+at+03.12.51.png" width=200></td>
+    </td><td><img src="https://user-images.githubusercontent.com/3306366/113850977-a13f7800-97b8-11eb-931d-a6dded90091f.png" width=200></td>
   </tr> 
 </table>
 
