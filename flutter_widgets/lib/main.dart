@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/container_widget.dart';
+import 'container_widget.dart';
 import 'package:flutter_widgets/text_widget.dart';
-import 'package:flutter_widgets/appar_widget.dart';
+import 'appar_widget.dart';
 import 'package:flutter_widgets/column_widget.dart';
 import 'package:flutter_widgets/row_widget.dart';
-import 'package:flutter_widgets/button_widget.dart';
+import 'button_widget.dart';
 import 'package:flutter_widgets/stack_widget.dart';
 
 void main() => runApp(new MyApp());

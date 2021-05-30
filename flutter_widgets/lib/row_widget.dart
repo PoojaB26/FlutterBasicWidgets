@@ -18,7 +18,7 @@ class RowWidget extends StatelessWidget{
             children: <Widget>[
               FlutterLogo(
                 size: 100.0,
-                colors: Colors.red,
+                textColor: Colors.red,
               ),
               Text("Column 2", style: bigStyle,),
               Container(
