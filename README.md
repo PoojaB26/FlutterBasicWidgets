@@ -557,19 +557,18 @@ No need of running the project, simply run the code in the new official Flutter 
   <tr>
     <td>
       <pre>
-     RaisedButton(
-          onPressed: (){},
-          color: Colors.yellow,
-          disabledTextColor: Colors.grey,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20.0)
-          ),
-          elevation: 20.0,
-          splashColor: Colors.green,
-          highlightColor: Colors.red,
-          highlightElevation: 1.0,
-          child: Text("Raised Button"),
-        ),
+     ElevatedButton(
+               onLongPress: () {},
+               onPressed: () {},
+               style: ElevatedButton.styleFrom(
+                 primary: Colors.yellow,
+                 enableFeedback: true,
+                 shape: RoundedRectangleBorder(
+                     borderRadius: BorderRadius.circular(20.0)),
+                 elevation: 20.0,
+               ),
+               child: Text("Elevated Button"),
+             ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but1.gif" width=200></td>
   </tr>
