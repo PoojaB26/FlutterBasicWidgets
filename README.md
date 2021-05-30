@@ -10,9 +10,8 @@ No need of running the project, simply run the code in the new official Flutter 
 #### Still want to run the project?
 
 * Fork this project.
-* Rename the directory to "flutter_widgets" or something with all_lowercase_and_underscore. (Unfortunately Flutter doesnt like CamelCases)
-* In your terminal, run <code>flutter create . </code> This will create the android and iOS projects for you. 
-* Run in your emulator or simulator. 
+* You don't need an emulator or simulator to run this anymore, web component has been added!
+
 
 ### This project helped you? Buy me a cupcake to support me! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/PoojaBhaumik)
  
