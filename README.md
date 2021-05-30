@@ -192,7 +192,7 @@ No need of running the project, simply run the code in the new official Flutter 
         decoration: FlutterLogoDecoration(),
       ),
                               </pre>
-                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con1.png" width = 200> </td></tr>      <tr><td> <b>Container with shadow, border, and child</b> </td></tr>
+                    </td> <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con1.png" width = 500> </td></tr>      <tr><td> <b>Container with shadow, border, and child</b> </td></tr>
                     <tr><td>
                               <pre>
       Container(
@@ -288,7 +288,7 @@ No need of running the project, simply run the code in the new official Flutter 
         )
       </pre>
       </td>
-      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con6.png" width = 200></td>
+      <td><img src = "https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/con6.png" width = 500></td>
 </tr>
  <tr><td> <b>Container with Image and Rounded Border</b> </td></tr>
     <tr>
