@@ -594,18 +594,16 @@ No need of running the project, simply run the code in the new official Flutter 
   <tr>
     <td>
       <pre>
-      FlatButton(
-          onPressed: (){},
-          colorBrightness: Brightness.dark,
-          color: Colors.deepPurpleAccent,
-          splashColor: Colors.green,
-          highlightColor: Colors.red,
-          child: Text("Raised Button"),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.horizontal(
-            left: Radius.circular(20.0), right: Radius.circular(1.0))
+      TextButton(
+            onPressed: () {},
+            style: ButtonStyle(
+              backgroundColor:
+                  MaterialStateProperty.all(Colors.deepPurpleAccent),
+              overlayColor: MaterialStateProperty.all(Colors.red),
+              foregroundColor: MaterialStateProperty.all(Colors.green),
+            ),
+            child: Text('Text Button'),
           ),
-        ),
       </pre>
     </td><td><img src="https://github.com/PoojaB26/FlutterBasicWidgets/blob/master/screenshots/but3.gif" width=200></td>
   </tr>  
