@@ -903,7 +903,7 @@ No need of running the project, simply run the code in the new official Flutter 
 ## Contributors
 Pooja Bhaumik <br>
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/pblead26.svg?style=social&label=Follow)](https://twitter.com/pblead26)
+[![Twitter Follow](https://img.shields.io/twitter/follow/pooja_bhaumik.svg?style=social&label=Follow)](https://twitter.com/pooja_bhaumik)
 
 
 
