@@ -1,27 +1,21 @@
 import 'package:flutter/material.dart';
 
-class AppBarWidget extends StatelessWidget{
+class AppBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-    );
-  }
-
-}
-
-
-/*
-* TODO Simple AppBar with Centre Title
-*
-* AppBar(
+      // Simple AppBar with Centre Title
+      appBar: AppBar(
         backgroundColor: Colors.red,
-        title: new Text("Title",),
+        title: new Text(
+          "Title",
+        ),
         elevation: 4.0,
         centerTitle: true,
       ),
-* */
-
+    );
+  }
+}
 
 /*
 *  TODO App Bar with a List of Action Buttons
