@@ -1,36 +1,32 @@
 import 'package:flutter/material.dart';
 
-class ColumnWidget extends StatelessWidget{
-
-  final bigStyle = TextStyle(
-      color: Colors.black,
-      fontSize: 40.0
-      );
+class ColumnWidget extends StatelessWidget {
+  final bigStyle = TextStyle(color: Colors.black, fontSize: 40.0);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(),
+        //Simple Column with Text Widgets
         body: Column(
-        )
-    );
+          children: [
+            Text(
+              "Column 1",
+              style: bigStyle,
+            ),
+            Text(
+              "Column 2",
+              style: bigStyle,
+            ),
+            Text(
+              "Column 3",
+              style: bigStyle,
+            )
+          ],
+        ));
   }
-
 }
 
-
-/*
-* TODO Column of vertical Text children
-*
-* Column(
-          children: <Widget>[
-            Text("Column 1", style: bigStyle,),
-            Text("Column 2", style: bigStyle,),
-            Text("Column 3", style: bigStyle,)
-          ],
-        )
-*
-* */
 
 
 /*
